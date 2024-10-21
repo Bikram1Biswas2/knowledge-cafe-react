@@ -11,7 +11,7 @@ function App() {
     <>
       <main className='w-11/12 mx-auto'>
       <Header></Header>
-     <div className='md:flex'>
+     <div className='md:flex gap-4 p-3'>
      <Blogs></Blogs>
      <Bookmarks></Bookmarks>
      </div>
